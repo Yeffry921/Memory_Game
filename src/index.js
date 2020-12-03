@@ -1,4 +1,6 @@
-const h1 = document.createElement('h1');
-h1.textContent = 'Initial Project Setup'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-document.querySelector('#root').appendChild(h1);
+import App from '../components/App'
+
+ReactDOM.render(<App/>, document.querySelector('#root'));
